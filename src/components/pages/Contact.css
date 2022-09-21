@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Lato:wght@300&family=Poppins:wght@300&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+body, html {
+    height:100%;
+  }
+
+ .contact-container{
+    background: url(../Images/dog-11.jpg) no-repeat center center ;
+  background-size: cover;
+ 
+  overflow: hidden;
+  height: 700px;
+  margin-top:175px;
+  
+} 
+
+
+
+.contact-heading{
+    position: absolute;
+    top:80px;
+    left:250px;
+    color:  #a2a2a2;
+     font-size: 160px;
+     font-weight: 600;
+     
+    
+}
+.contact-heading2{
+    position: relative;
+    color: white;
+    font-size:30px;
+    font-family: 'Aboreto', cursive;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-left:50px;
+    text-shadow: 2px 2px grey;
+   
+}
+
+.contact-text{
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-size:30px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Aboreto', cursive;
+    
+    transition: all 0.5s ease-in-out; 
+   
+    text-align: center;
+    
+    
+}
+.contact-list{
+    
+/* width: 65%;
+height: 75%; */
+margin:50px;
+font-size: 15px;;
+    margin-bottom:200px;
+}
+
+
+
+
+

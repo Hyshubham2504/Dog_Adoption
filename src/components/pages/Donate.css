@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Lato:wght@300&family=Poppins:wght@300&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body, html {
+    height: 100%;
+  }
+
+.donate-container{
+    background-image: url("../Images/cat-3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height:50%; */
+    background-position: center;
+    margin-top: -350px;
+    
+
+}
+
+.donate-heading{
+    color:  #a2a2a2;
+     padding-top: 270px; 
+     font-size: 200px;
+     font-weight: 600;
+}
+.donate-heading2{
+    color: white;
+    font-size:40px;
+    margin-top: -54px;
+    font-family: 'Aboreto', cursive;
+}
+
+.donate-form{
+    /* border:2px solid black; */
+    background-color: white;
+    height: 100vh;
+    width: 50vw;
+    margin: auto ;
+    margin-top:500px;
+}
+
+
+

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Lato:wght@300&family=Poppins:wght@400&display=swap');
+body, html {
+    height: 100%;
+  }
+.abt-part-1{
+  
+    /* box-shadow: 0 30px 60px 0 rgba(155, 170, 189, 0.4); */
+    /* margin-top: -130px; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* padding:50px; */
+}
+
+
+.abt-part-1-card{
+    height:500px !important;
+    width: 850px !important;
+    background-image:url("../Images/about-bg.jpeg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none !important;
+ 
+    box-shadow: none;
+    position: relative;
+    
+    /* color: white ; */
+    /* border: 2px solid rgb(25, 25, 66) ; */
+    /* background-color: rgb(235, 238, 241) ;
+   
+     */
+
+}
+.abt-part-1-card::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.45);
+}
+
+.abt-part-1-heading1{
+    position: relative;
+    /* font-style: italic; */
+    font-size: 35px;
+    color: white;
+    margin: 40px;
+    margin-bottom: 20px;
+    /* text-decoration: underline; */
+    font-family: 'Poppins', sans-serif;
+    
+}
+.abt-part-1-heading2{
+    position: relative;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    margin: 20px;
+    margin-bottom: 65px;
+    line-height: 1;
+    font-family: 'Aboreto', cursive;
+}
+.abt-part-1-text{
+    position: relative;
+ color: white;
+ font-size: 25px;
+ /* font-family: 'Aboreto', cursive; */
+ font-family: 'Poppins', sans-serif;
+ max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.abt-part-2{
+    margin-top: 75px;
+}
+.abt-part-2-heading1{
+    
+    font-size: 22px;
+    color: gray;
+    margin: 40px;
+    margin-bottom: 20px;
+    /* text-decoration: underline; */
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-left: -10px;
+    
+}
+.abt-part-2-heading2{
+    
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    margin: 20px;
+    margin-bottom: 25px;
+    line-height: 1;
+    font-family: 'Aboreto', cursive;
+    text-align: left;
+    margin-left: -15px;
+    
+}
+.abt-part-2-text1{
+    font-size: 20px;
+    /* font-family: 'Aboreto', cursive; */
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    margin-left: -12px;
+    margin-bottom: 50px;
+    font-weight: 200;
+
+}
+
+.abt-part-2-heading3{
+    
+    position: relative;
+    font-size: 30px;
+    font-weight: 550;
+    color: black;
+    margin: 20px;
+    margin-bottom: 25px;
+    line-height: 1;
+    font-family: 'Aboreto', cursive;
+    text-align: left;
+    margin-left: -15px;
+    
+}
+
+.abt-part-2-text2{
+    font-size: 20px;
+    /* font-family: 'Aboreto', cursive; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-align: justify;
+    margin-left: -12px;
+
+}
+
+.num-1 ,.num-2 ,.num-3 ,.num-4 ,.num-5
+{
+    font-size: 18px;
+    color:red;
+}
+
+.line-1 ,.line-2, .line-3 ,.line-4 ,.line-5
+{
+    font-size: 18px;
+    text-align: left;
+    
+    /* font-weight: 500; */
+    
+}
+
+.stats-num{
+    margin-right:20px !important;
+    margin-bottom: 20px  !important;
+    margin-top: 20px  !important;
+    
+    
+}
+.stats-box{
+    background-color: rgb(250, 236, 236);
+    border:2px solid rgb(25, 25, 66);
+    height: 450px;
+    margin-top:155px !important;
+    padding-left: 3px !important;
+   
+}
+
+
+.abt-part-3
+{
+    margin-top:130px;
+    margin-bottom:130px;
+}
