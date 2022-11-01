@@ -59,18 +59,348 @@ body, html {
     
     display: flex;
     flex-direction: row;
-    /* margin: auto; */
-    /* justify-content: space-e; */
-    /* max-width: 700px; */
-    /* flex-wrap: wrap; */
     margin-bottom: 200px;
-    /* justify-content: center; */
-    /* margin-left:75px; */
-   /*margin-top:35px !important; */
-    /* flex-basis: 33.333333% ; */
+}
+
+@media (min-width:769px) and (max-width: 888px){
+    .adopt-container{
+        background: url(../Images/cat-dog.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 700px;
+      margin-top:-10px;
+    } 
     
+    
+    
+    .adopt-heading{
+        position: static;
+        color:  #a2a2a2;
+         font-size: 60px;
+         font-weight: 600;
+         padding-top: 10px;
+         
+        
+    }
+    .adopt-heading2{
+        position: relative;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 10px;
+        padding-left:30px;
+        text-shadow: 2px 2px grey;
+       
+    }
+    
+    .adopt-text{
+        margin:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        font-size:30px;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'Aboreto', cursive;
+        
+        transition: all 0.5s ease-in-out; 
+       
+        text-align: center;
+        
+        
+    }
+    .adopt-cards{
+        
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 200px;
+    }
+}
+
+@media (min-width:889px) and (max-width: 1000px){
+    .adopt-container{
+        background: url(../Images/cat-dog.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 750px;
+      margin-top:-50px;
+    } 
+    
+    
+    
+    .adopt-heading{
+        position: static;
+        padding-left: -40px;
+        color:  #a2a2a2;
+         font-size: 60px;
+         font-weight: 600;
+         padding-top: 40px;
+    }
+    .adopt-heading2{
+        position: relative;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 10px;
+        padding-left:30px;
+        text-shadow: 2px 2px grey;
+       
+    }
+}
+
+@media (min-width:1000px) and (max-width: 1240px){
+    .adopt-container{
+        background: url(../Images/cat-dog.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 750px;
+      margin-top:-50px;
+    } 
+    
+    
+    
+    .adopt-heading{
+        position: static;
+        padding-left: -40px;
+        color:  #a2a2a2;
+         font-size: 120px;
+         font-weight: 600;
+         /* padding-top: 10px; */
+    }
+    .adopt-heading2{
+        position: relative;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 10px;
+        padding-left:30px;
+        text-shadow: 2px 2px grey;
+       
+    }
 }
 
 
+@media (min-width:600px) and (max-width: 768px){
+    .adopt-container{
+        background: url(../Images/cat-dog.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 700px;
+      margin-top:-80px;
+      
+    } 
+    
+    
+    
+    .adopt-heading{
+        position: static;
+        padding-left: -40px;
+        color:  #a2a2a2;
+         font-size: 60px;
+         font-weight: 600;
+         padding-top: 15px;
+        
+    }
+    .adopt-heading2{
+        position: relative;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 10px;
+        padding-left:30px;
+        text-shadow: 2px 2px grey;
+       
+    }
+    .adopt-text{
+        margin:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        font-size:30px;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'Aboreto', cursive;
+        
+        transition: all 0.5s ease-in-out; 
+       
+        text-align: center;
+        
+        
+    }
+    .adopt-cards{
+        
+        display:flex;
+        flex-direction: row;
+        /* margin-bottom: 200px; */
+        /* margin-left: 150px; */
+    }
+}
 
+@media screen and (max-width: 600px)
+{
+    .adopt-container{
+        background: url(../Images/cat-dog.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 420px;
+      width:599px;
+      margin-top:50px;
+      
+    } 
+    .adopt-heading{
+        position: relative;
+        top:80px;
+        left:150px;
+        color:  #a2a2a2;
+         font-size: 100px;
+         font-weight: 600;
+         
+        
+    }
+    .adopt-heading2{
+        position: relative;
+        color: white;
+        font-size:20px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 70px;
+        padding-left:150px;
+        text-shadow: 2px 2px grey;
+       
+    }
+    .adopt-cards{
+    
+        display: flex;
+        flex-direction: row;
+        /* margin: auto; */
+        /* justify-content: space-e; */
+        /* max-width: 700px; */
+        /* flex-wrap: wrap; */
+        margin-bottom: 200px;
+        /* justify-content: center; */
+         margin-left:150px; 
+       /*margin-top:35px !important; */
+        /* flex-basis: 33.333333% ; */
+        
+    }
 
+}
+@media screen and (max-width: 426px)
+{
+    .adopt-container{
+        background: url(../Images/cat-dog.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 420px;
+      width:425px;
+      margin-top:50px;
+      
+    } 
+    .adopt-heading{
+        position: relative;
+        top:80px;
+        left:100px;
+        color:  #a2a2a2;
+         font-size: 80px;
+         font-weight: 600;
+         
+        
+    }
+    .adopt-heading2{
+        position: relative;
+        color: white;
+        font-size:15px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 70px;
+        padding-left:110px;
+        text-shadow: 2px 2px grey;
+       
+    }
+    .adopt-cards{
+    
+        display: flex;
+        flex-direction: row;
+        /* margin: auto; */
+        /* justify-content: space-e; */
+        /* max-width: 700px; */
+        /* flex-wrap: wrap; */
+        margin-bottom: 200px;
+        /* justify-content: center; */
+         margin-left:30px; 
+       /*margin-top:35px !important; */
+        /* flex-basis: 33.333333% ; */
+        
+    }
+
+}
+@media screen and (max-width: 321px)
+{
+    .adopt-container{
+        background: url(../Images/cat-dog.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 420px;
+      width:320px;
+      margin-top:50px;
+      
+    } 
+    .adopt-heading{
+        position: relative;
+        top:80px;
+        left:50px;
+        color:  #a2a2a2;
+         font-size: 50px;
+         font-weight: 600;
+         
+        
+    }
+    .adopt-heading2{
+        position: relative;
+        color: white;
+        font-size:15px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 70px;
+        padding-left:55px;
+        text-shadow: 2px 2px grey;
+       
+    }
+    .adopt-cards{
+    
+        display: flex;
+        flex-direction: row;
+        /* margin: auto; */
+        /* justify-content: space-e; */
+        /* max-width: 700px; */
+        /* flex-wrap: wrap; */
+        margin-bottom: 200px;
+        /* justify-content: center; */
+         margin-left:0px; 
+       /*margin-top:35px !important; */
+        /* flex-basis: 33.333333% ; */
+        
+    }
+    .adopt-text{
+        margin:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        font-size:10px;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'Aboreto', cursive;
+        
+        transition: all 0.5s ease-in-out; 
+       
+        text-align: center;
+}
+}

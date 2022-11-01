@@ -63,8 +63,326 @@ margin:50px;
 font-size: 15px;;
     margin-bottom:200px;
 }
+@media (min-width:769px) and (max-width: 888px){
+    .contact-container{
+        background: url(../Images/dog-11.jpg) no-repeat center center ;
+      background-size: cover;
+      width: 100%;
+      overflow: hidden;
+      height: 700px;
+      margin-top:-10px;
+      
+    } 
+    
+    
+    
+    .contact-heading{
+        position:static;
+        /* top:70px; */
+        /* left:250px; */
+        color:  #05121ca2;
+         font-size: 60px;
+         font-weight: 600;
+         padding-top: 10px;
+        
+    }
+    .contact-heading2{
+        position: relative;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 0px;
+        padding-left:50px;
+        text-shadow: 2px 2px grey;
+       
+    }
+    
+    .contact-text{
+        margin:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        font-size:30px;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'Aboreto', cursive;
+        
+        transition: all 0.5s ease-in-out; 
+       
+        text-align: center;
+        
+        
+    }
+    .contact-list{
+        
+    /* width: 65%;
+    height: 75%; */
+    margin:50px;
+    font-size: 15px;;
+        margin-bottom:200px;
+    }
+}
 
+@media (min-width:889px) and (max-width: 1000px){
+    .contact-container{
+        background: url(../Images/dog-11.jpg) no-repeat center center ;
+      background-size: cover;
+      width: 100%;
+      overflow: hidden;
+      height: 700px;
+      margin-top:-30px;
+      
+    } 
+    
+    
+    
+    .contact-heading{
+        position:static;
+        /* top:70px; */
+        /* left:250px; */
+        color:  #ffffff;
+         font-size: 60px;
+         font-weight: 600;
+         padding-top: 30px;
+         text-shadow: 2px 2px grey
+    }
+    .contact-heading2{
+        position: static;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 10px;
+        padding-left:50px;
+        text-shadow: 2px 2px grey;
+       
+    }
+    
+}
+@media (min-width:1000px) and (max-width: 1240px){
+    .contact-container{
+        background: url(../Images/dog-11.jpg) no-repeat center center ;
+      background-size: cover;
+      width: 100%;
+      overflow: hidden;
+      height: 700px;
+      margin-top:-50px;
+      
+    } 
+    
+    
+    
+    .contact-heading{
+        position:static;
+        /* top:70px; */
+        /* left:250px; */
+        color:  #ffffff;
+         font-size: 120px;
+         font-weight: 600;
+         padding-top: 30px;
+         text-shadow: 2px 2px grey
+    }
+    .contact-heading2{
+        position: static;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 10px;
+        padding-left:50px;
+        text-shadow: 2px 2px grey;
+       
+    }
+    
+}
+@media (min-width:600px) and (max-width: 768px){
+    .contact-container{
+        background: url(../Images/dog-11.jpg) no-repeat center center ;
+      background-size: cover;
+      width: 100%;
+      overflow: hidden;
+      height: 700px;
+      margin-top:-80px;
+      
+    } 
+    
+    
+    
+    .contact-heading{
+        position:static;
+        /* top:70px; */
+        /* left:250px; */
+        color:  #05121ca2;
+         font-size: 60px;
+         font-weight: 600;
+         padding-top: 10px;
+        
+    }
+    .contact-heading2{
+        position: static;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 10px;
+        padding-left:50px;
+        text-shadow: 2px 2px grey;
+       
+    }
+    
+}
 
+@media screen and (max-width: 600px)
+{
+    .contact-container{
+        background: url(../Images/dog-11.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 420px;
+      width: 599px;
+      margin-top:70px;
+      
+    } 
+    .contact-heading{
+        position: absolute;
+        top:80px;
+        left:50px;
+        color:  #a2a2a2;
+         font-size: 120px;
+         font-weight: 600;
+         
+        
+    }
+    .contact-heading2{
+        position: relative;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 150px;
+        padding-left:50px;
+        text-shadow: 2px 2px grey;
+       
+    
 
+}
+}
+@media screen and (max-width: 426px)
+{
+    .contact-container{
+        background: url(../Images/dog-11.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 420px;
+      width: 429px;
+      margin-top:70px;
+      
+    } 
+    .contact-heading{
+        position: relative;
+        top:80px;
+        left:50px;
+        color:  #a2a2a2;
+         font-size: 80px;
+         font-weight: 600;
+         
+        
+    }
+    .contact-heading2{
+        position: relative;
+        color: white;
+        font-size:20px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 150px;
+        padding-left:50px;
+        text-shadow: 2px 2px grey;
+       
+    
 
+}
+.contact-list{
+    
+    /* width: 65%;
+    height: 75%; */
+    margin:20px;
+    font-size: 15px;;
+        margin-bottom:200px;
+    
+    }
+    .contact-text{
+        margin:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        font-size:30px;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'Aboreto', cursive;
+        
+        transition: all 0.5s ease-in-out; 
+       
+        text-align: center;
+        
+        
+    }
+}
+@media screen and (max-width: 321px)
+{
+    .contact-container{
+        background: url(../Images/dog-11.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 420px;
+      width: 320px;
+      margin-top:70px;
+      
+    } 
+    .contact-heading{
+        position: relative;
+        top:80px;
+        left:50px;
+        color:  #a2a2a2;
+         font-size: 50px;
+         font-weight: 600;
+         
+        
+    }
+    .contact-heading2{
+        position: relative;
+        color: white;
+        font-size:20px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 150px;
+        padding-left:50px;
+        text-shadow: 2px 2px grey;
+       
+    
 
+}
+.contact-list{
+    
+     width: 25%;
+    height: 75%; 
+    margin:0px;
+    font-size: 15px;;
+        margin-bottom:200px;
+    
+    }
+    .contact-text{
+        margin:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        font-size:30px;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'Aboreto', cursive;
+        
+        transition: all 0.5s ease-in-out; 
+       
+        text-align: center;
+}
+}

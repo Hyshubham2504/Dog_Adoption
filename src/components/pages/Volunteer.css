@@ -124,3 +124,287 @@ body, html {
     margin-top:100px;
     margin-bottom:200px;
 }
+
+@media (min-width:889px) and (max-width: 1200px){
+    .volunteer-container{
+        background: url(../Images/dog-2.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 800px;
+      margin-top:-40px !important;
+    } 
+    
+    
+    .volunteer-heading{
+        position: static;
+        color:  #420a0a;
+         font-size: 120px;
+         font-weight: 600;
+         padding-top: 10px;
+        
+    }
+    .volunteer-heading2{
+        position: relative;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 10px;
+        text-shadow: 2px 2px grey;
+       
+        
+    }
+    
+    .volunteer-text{
+        margin:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        font-size:30px;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'Aboreto', cursive;
+        
+        transition: all 0.5s ease-in-out; 
+       
+        text-align: center;
+        
+        
+    }
+    
+    .volunteer-form{
+        
+        background-color: white;
+        height: 100vh;
+        width: 50vw;
+        margin: auto ;
+        margin-top:100px;
+        margin-bottom:300px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 888px){
+    .volunteer-container{
+        background: url(../Images/dog-2.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height: 500px;
+      margin-top:-10px;
+    } 
+    
+    
+    .volunteer-heading{
+        position: static;
+        color:  #420a0a;
+         font-size: 60px;
+         font-weight: 600;
+         padding-top: 10px;
+        
+    }
+    .volunteer-heading2{
+        position: relative;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 10px;
+        text-shadow: 2px 2px grey;
+       
+        
+    }
+    
+    .volunteer-text{
+        margin:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        font-size:30px;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'Aboreto', cursive;
+        
+        transition: all 0.5s ease-in-out; 
+       
+        text-align: center;
+        
+        
+    }
+    
+    .volunteer-form{
+        
+        background-color: white;
+        height: 100vh;
+        width: 50vw;
+        margin: auto ;
+        margin-top:100px;
+        margin-bottom:300px;
+    }
+}
+
+@media (min-width:600px) and (max-width: 768px){
+    .volunteer-container{
+        background: url(../Images/dog-2.jpg) no-repeat center center ;
+      background-size: cover;
+      
+      overflow: hidden;
+      height: 500px;
+      margin-top:-80px;
+    } 
+    
+    
+    .volunteer-heading{
+        position:static;
+        text-align: center;
+        padding-top: 20px;
+        /* padding-right: 50px; */
+        color:  #420a0a;
+         font-size: 60px;
+         font-weight: 600;
+         
+        
+    }
+    .volunteer-heading2{
+        position: relative;
+        color: white;
+        font-size:30px;
+        font-family: 'Aboreto', cursive;
+        font-weight: 700;
+        padding-top: 1px;
+        text-shadow: 2px 2px grey;
+    }
+    .volunteer-form{
+        
+        background-color: white;
+        height: 100vh;
+        width: 50vw;
+        margin: auto ;
+        margin-top:100px;
+        margin-bottom:250px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .volunteer-container{
+        background: url(../Images/dog-2.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height:420px;
+      width:599px;
+      margin-top:75px;
+      
+      /* z-index: -1; */
+    } 
+    
+.volunteer-heading{
+    position: absolute;
+    top:80px;
+    left:100px;
+    color:  #a2a2a2;
+     /* padding-top: 285px;  */
+     font-size: 70px;
+     font-weight: 600;
+     
+    
+}
+.volunteer-heading2{
+    position: relative;
+    color: white;
+    font-size:20px;
+    /* margin-top: -34px; */
+    font-family: 'Aboreto', cursive;
+    font-weight: 700;
+    padding-top: 270px;
+    padding-left: 100px;
+    text-shadow: 2px 2px grey;
+   
+    
+}
+.volunteer-form{
+    
+    background-color: white;
+    height: 200vh;
+    width:fit-content;
+    margin: auto ;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+}
+@media screen and (max-width: 426px)
+{
+    .volunteer-container{
+        background: url(../Images/dog-2.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height:420px;
+      width:425px;
+      margin-top:75px;
+      
+      /* z-index: -1; */
+    } 
+    
+.volunteer-heading{
+    position: relative;
+    top:40px;
+    left:100px;
+    color:  #a2a2a2;
+     /* padding-top: 285px;  */
+     font-size: 40px;
+     font-weight: 600;
+     
+    
+}
+.volunteer-heading2{
+    position: relative;
+    color: white;
+    font-size:20px;
+    /* margin-top: -34px; */
+    font-family: 'Aboreto', cursive;
+    font-weight: 700;
+    padding-top: 270px;
+    padding-left: 100px;
+    text-shadow: 2px 2px grey;
+   
+    
+}
+}
+@media screen and (max-width: 321px)
+{
+    .volunteer-container{
+        background: url(../Images/dog-2.jpg) no-repeat center center ;
+      background-size: cover;
+     
+      overflow: hidden;
+      height:420px;
+      width:320px;
+      margin-top:75px;
+      
+      /* z-index: -1; */
+    } 
+    
+.volunteer-heading{
+    position: relative;
+    top:40px;
+    left:50px;
+    color:  #a2a2a2;
+     /* padding-top: 285px;  */
+     font-size: 40px;
+     font-weight: 600;
+     
+    
+}
+.volunteer-heading2{
+    position: relative;
+    color: white;
+    font-size:10px;
+    /* margin-top: -34px; */
+    font-family: 'Aboreto', cursive;
+    font-weight: 700;
+    padding-top: 270px;
+    padding-left: 55px;
+    text-shadow: 2px 2px grey;
+}
+}

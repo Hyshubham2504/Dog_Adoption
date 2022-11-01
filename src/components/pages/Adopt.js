@@ -31,7 +31,7 @@ export const Adopt = () => {
       <Container>
       <Row>
       <Col>
-       
+        
         <AdoptCard
           
           title="Berry"
@@ -66,9 +66,9 @@ export const Adopt = () => {
         ></AdoptCard>
           
           </Col>
-          </Row>
+          
 
-          <Row>
+    
           <Col>
           
          <AdoptCard

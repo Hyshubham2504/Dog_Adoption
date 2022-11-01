@@ -147,61 +147,716 @@ body, html {
     background-repeat: no-repeat;
     background-size: contain;
   }
-@media screen and (max-width: 1240px) {
 
-    /* .background-img{
-       
-       height:75vh;
-        
-         
-    } */
-    .top-heading{
-   
-        top:85px;
-    }
-    
-} 
-
-/* @media screen and (max-width: 981px) {
-
-    .part-1{
-        background-image: url("../Images/img1.jpg");
-        height: 230vh;
-        margin-top: -100px;
-        font-size: 20px;
-        background-repeat: no-repeat;
-       
-        background-size: cover;
-        overflow: hidden;
-        width:100%;
-    }
-    .top-heading{
-        color: white;
-        position: relative;
-        top:85px;
-        
-        display: flex;
-        flex-wrap: wrap;
-    }
-} */
- @media screen and (max-width: 683px) {
-
+@media (min-width:769px) and (max-width: 888px){
     .top-heading{
         text-align: left;
-        padding-left: 10px;
+        padding-left: 5px;
+        margin-top: -40px;
+        display:inline-block;
+    }
+    .part-1{
+  
+        box-shadow: 0 50px 60px 0 rgba(155, 170, 189, 0.4);
+        margin-top: -50px;
     
     }
+    .background-img{
+        background-image: url("../Images/home.jpg");
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 125px;
+         height:85vh;
+         width:100%;
+        font-size: 20px;
+        overflow: hidden;
+    }
+    .part-2 img{
+        /* margin-right:10px;
+        margin-left:10px; */
+        /* filter: invert(95%); */
+        filter: invert(11%)   hue-rotate(-165deg) brightness(127%) contrast(104%);
+        height:190px;
+        width:230px;
+    }
+    .part-3{
+        height:120vh;
+    }
+    /* .part-3-left-side{
+        margin-right: 60px;
+    } */
+    
+    .cat1-img{
+        height:60vh;
+        width: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;  
+        background-position: left;
+        /* margin-right: 10px; */
+    }
+    .part-3-right-side{
+        margin-right: -30px;
+        font-size: 20px;
+        text-align:center;
+     
+     }
+     
+     .part-3-right-side h3{
+         font-size: 42px;
+         margin-left: 13px;
+     }
+     .custom-class{
+         width: 37% ;
+         margin-top: 10px ;
+         /* margin-left:-11px; */
+         color: white ;
+         background-color: rgb(25, 25, 66);
+         border-radius: 6px;
+         
+     }
+     .part-4{
+         height: 130vh;
+     }
+     
+     .part-4-left-side{
+        font-size: 20px;
+        /* margin-right: -40px; */
+
+        text-align:center;
+        
+     }
+     
+     .dog1-img{
+         height: 70vh;
+         width: 550px;
+         background-repeat: no-repeat;
+         background-size: cover;  
+         /* padding-right: 100px; */
+         
+     }
+     .part-4-right-side{
+         padding:10px;
+     
+     }
+     
+     .part-4-left-side h3{
+         font-size: 42px;
+         padding-top: 20px;
+         margin-left: -13px;
+     }
+     .part-5{
+         display:grid;
+         /* flex-direction: column; */
+         justify-content: space-evenly;
+         /* margin-top:10px; */
+         /* margin-left: 0px; */
+     }
+     
+      
+     
+     .part-6 {
+         margin-top:50px;
+      
+         
+       }
+     
+       .footer-image{
+         background-image: url("../Images/DogHead.png");
+         height: 70vh;
+         width: 100%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         /* margin-right: 10px; */
+       }
+}
+
+@media (min-width:889px) and (max-width: 1100px){
+    .top-heading{
+        text-align: left;
+        padding-left: 5px;
+        margin-top: -50px;
+        display:inline-block;
+    }
+    .part-1{
+  
+        box-shadow: 0 50px 60px 0 rgba(155, 170, 189, 0.4);
+        margin-top: -50px;
+    
+    }
+    .background-img{
+        background-image: url("../Images/home.jpg");
+        
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        margin-top: 125px;
+         height:95vh;
+         width:100%;
+        font-size: 20px;
+        overflow: hidden;
+    }
+    .part-2 img{
+        /* margin-right:10px;
+        margin-left:10px; */
+        /* filter: invert(95%); */
+        filter: invert(11%)   hue-rotate(-165deg) brightness(127%) contrast(104%);
+        height:110px;
+        width:145px;
+    }
+    .part-3{
+        height:120vh;
+    }
+    /* .part-3-left-side{
+        margin-right: 60px;
+    } */
+    
+    .cat1-img{
+        height:60vh;
+        width: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;  
+        background-position: left;
+        /* margin-right: 10px; */
+    }
+    .part-3-right-side{
+        margin-right: -30px;
+        font-size: 20px;
+        text-align:center;
+     
+     }
+     
+     .part-3-right-side h3{
+         font-size: 42px;
+         margin-left: 13px;
+     }
+     .custom-class{
+         width: 37% ;
+         margin-top: 10px ;
+         margin-left:-11px;
+         color: white ;
+         background-color: rgb(25, 25, 66);
+         border-radius: 6px;
+         
+     }
+     .part-4{
+         height: 130vh;
+     }
+     
+     .part-4-left-side{
+        font-size: 20px;
+        margin-right: -40px;
+
+        text-align:center;
+        
+     }
+     
+     .dog1-img{
+         height: 70vh;
+         width: 600px;
+         background-repeat: no-repeat;
+         background-size: cover;  
+     }
+     .part-4-right-side{
+         padding:10px;
+     
+     }
+     
+     .part-4-left-side h3{
+         font-size: 22px;
+         margin-left: -13px;
+     }
+     .part-5{
+         display:flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+         /* margin-top:10px; */
+         /* margin-left: 0px; */
+     }
+     
+      
+     
+     .part-6 {
+         margin-top:50px;
+      
+         
+       }
+     
+       .footer-image{
+         background-image: url("../Images/DogHead.png");
+         height: 70vh;
+         width: 100%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         margin-right: 10px;
+       }
+}
+
+@media (min-width:600px) and (max-width: 768px){
+    .top-heading{
+        text-align: left;
+        padding-left: 5px;
+        margin-top: -20px;
+        display:inline-block;
+    }
+    .part-1{
+  
+        box-shadow: 0 60px 60px 0 rgba(155, 170, 189, 0.4);
+        margin-top: -80px;
+    
+    }
+    .background-img{
+        background-image: url("../Images/home.jpg");
+        
+        background-position:center;
+        background-repeat: no-repeat;
+        /* margin-top: 50px; */
+        padding-top: -40px;
+         /* height:120vh; */
+         width:100%;
+        font-size: 20px;
+        overflow: hidden;
+    }
+    .part-2 img{
+        /* margin-right:10px;
+        margin-left:10px; */
+        /* filter: invert(95%); */
+        filter: invert(11%)   hue-rotate(-165deg) brightness(127%) contrast(104%);
+        height:170px;
+        width:200px;
+    }
+    .part-3{
+        height:135vh;
+        width: 100%;
+    }
+    /* .part-3-left-side{
+        margin-right: 60px;
+    } */
+    
+    .cat1-img{
+        height:60vh;
+        width: 450px;
+        background-repeat: no-repeat;
+        background-size: cover;  
+        background-position: left;
+        /* margin-right: 10px; */
+    }
+    .part-3-right-side{
+        margin-right: -30px;
+        font-size: 20px;
+        text-align:center;
+        padding-top: 30px;
+        width: 100%;
+     
+     }
+     
+     .part-3-right-side h3{
+         font-size: 34px;
+         margin-left: 13px;
+         text-align: center;
+         width: 100%;
+     }
+     .custom-class{
+         width: 37% ;
+         margin-top: 10px ;
+         /* margin-left:-11px; */
+         color: white ;
+         background-color: rgb(25, 25, 66);
+         border-radius: 6px;
+         
+     }
+     .part-4{
+         height: 130vh;
+     }
+     
+     .part-4-left-side{
+        font-size: 20px;
+        /* margin-right: -40px; */
+        width: 100%;
+        text-align:center;
+        
+     }
+     
+     .dog1-img{
+         height: 70vh;
+         width: 500px;
+         background-repeat: no-repeat;
+         background-size: cover; 
+         /* padding-top: -100px;  */
+         padding-right: 10px;
+         
+     }
+     .part-4-right-side{
+         padding:10px;
+     
+     }
+     
+     .part-4-left-side h3{
+        font-size: 34px;
+        margin-left: 13px;
+        text-align: center;
+    }
+     .part-5{
+         display:grid;
+         flex-direction: row;
+         justify-content: space-evenly;
+         /* margin-top:10px; */
+         /* margin-left: 0px; */
+     }
+     
+      
+     
+     .part-6 {
+         margin-top:50px;
+      
+         
+       }
+     
+       .footer-image{
+         background-image: url("../Images/DogHead.png");
+         height: 70vh;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         margin-right: 10px;
+       }
+}
+
+@media screen and (max-width: 600px) {
+
+    .top-heading{
+        text-align: relative;
+        padding-left: 50px;
+        margin-top: -30px;
+        font-size: 25px;
+        
+    
+    }
+    .background-img{
+        background-image: url("../Images/home.jpg");
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 120vh;
+        width: 599;
+        font-size: 50px;
+        padding-left:30px;
+        margin-top:100px;
+        overflow: hidden;
+    }
+   
+    .dog1-img{
+        height:50vh;
+        float:right;
+        align-self: auto;
+        
+        background-repeat: no-repeat;
+        background-size: cover; 
+        
+      
+        
+    }
+    .cat1-img{
+        height:50vh;
+        float:left;
+        align-self: auto;
+        
+        background-repeat: no-repeat;
+        background-size: cover; 
+        
+    }
+    .part-3-left-side{
+        padding:5px;
+        padding-top:60px;
+        
+    }
+   
+    .part-3-right-side{
+        padding:10px;
+        padding-top:10px;
+        font-size: 10px;
+         text-indent: initial; 
+        text-align: initial;
+     
+     }
+     .part-3-right-side h3{
+        font-size: 21px;
+        margin-left: -13px;
+        padding-top:45px;
+    }
+    .part-4{
+        height:80vh;
+    }
+    
+    .part-4-left-side{
+       padding:10px;
+       padding-top:10px;
+       font-size: 10px;
+       /* text-indent: initial; */
+       text-align: initial;
+       
+    }
+    .part-4-left-side h3{
+        font-size: 21px;
+        margin-left: -13px;
+        padding-top:50px;
+    }
+    .part-4-right-side{
+        padding: 10px;
+        padding-top:60px;
+    
+    }
+    .part-2{
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        flex-wrap: wrap;
+        margin-top:80px;
+        margin-bottom:30px;
+        justify-content: space-evenly;
+        padding-left: 60px;
+     
+    
+    
+    }
+    .part-2 img{
+        /* margin-right:10px;
+        margin-left:10px; */
+        /* filter: invert(95%); */
+        filter: invert(11%)   hue-rotate(-165deg) brightness(127%) contrast(104%);
+        height:200px;
+        width:200px;
+       
+      
+    
+    }
+    .part-5{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top:60px;
+        padding-left:140px;
+    }
+   
+    
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 426px) {
 
     .top-heading{
        
-     
-        padding-top:10px;
+        position: relative;
+        top:50px;
+        padding-top:-20px;
+        padding-left: 50px;
+        font-size: 15px;
     
     }
+    .background-img{
+        background-image: url("../Images/home.jpg");
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 420px;
+        width: 425px;
+        font-size: 100px;
+        padding-left:20px;
+       
+        margin-top: 120px;
+        overflow: hidden;
+    }
+    .part-2{
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        flex-wrap: wrap;
+        margin-top:80px;
+        margin-right: 50px;
+        margin-bottom:30px;
+        justify-content: space-evenly;
+        
+     
+    
+    
+    }
+    .part-2 img{
+        /* margin-right:10px;
+        margin-left:10px; */
+        /* filter: invert(95%); */
+        filter: invert(11%)   hue-rotate(-165deg) brightness(127%) contrast(104%);
+        height:200px;
+        width:200px;
+       
+      
+    
+    }
+    .cat1-img{
+        height:50vh;
+        width:50vw;
+        float:left;
+        align-self: auto;
+        
+        background-repeat: no-repeat;
+        background-size: cover; 
+        padding-left: 10px;
+        
+    }
+    .part-3-right-side{
+        padding:10px;
+        padding-top:10px;
+        
+        text-indent: initial; 
+        text-align: initial;
+       
+        font-size: 10px;
+       
+     
+     }
+     .part-3-right-side h3{
+        font-size: 20px;
+        
+        padding-top:45px;
+        
+    }
+    .dog1-img{
+        height:50vh;
+        width:50vw;
+        float:right;
+        align-self: auto;
+        
+        background-repeat: no-repeat;
+        background-size: cover; 
+        
+      
+        
+    }
+    .part-4{
+        height:80vh;
+    }
+    
+    .part-4-left-side{
+       padding:10px;
+       padding-top:10px;
+       font-size: 10px;
+       padding-left:30px;
+       /* text-indent: initial; */
+       text-align: initial;
+       
+    }
+    .part-4-left-side h3{
+        font-size: 20px;
+        margin-left: -13px;
+        padding-top:50px;
+        
+    }
+    .part-4-right-side{
+        padding: 10px;
+        padding-top:60px;
+    
+    }
+    .part-5{
+        display:flex;
+        width:100vw;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top:60px;
+        padding-left:80px;
+    }
+    
 
+  
+  
 }
-
+@media screen and (max-width: 321px) {
+    .top-heading{
+       
+        position: relative;
+        margin-top:-60px;
+        padding-top:10px;
+        padding-left: 60px;
+        font-size: 10px;
+    
+    }
+    .background-img{
+        background-image: url("../Images/home.jpg");
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:320px;
+        width: 320px;
+        font-size: 100px;
+        padding-left:20px;
+        padding-top:50px;
+        overflow: hidden;
+    }
+    .dog1-img{
+        height:40vh;
+        width:40vw;
+        float:right;
+        align-self: auto;
+        
+        background-repeat: no-repeat;
+        background-size: cover; 
+        
+      
+        
+    }
+    .part-4-left-side{
+        padding:10px;
+        padding-top:10px;
+        font-size: 10px;
+        padding-left:30px;
+        /* text-indent: initial; */
+        text-align: initial;
+        
+     }
+     .part-4-left-side h3{
+         font-size: 10px;
+         margin-left: -13px;
+         padding-top:50px;
+         
+     }
+     .part-4-right-side{
+         padding: 10px;
+         padding-top:60px;
+     
+     }
+     .part-5{
+        display:flex;
+        width:50px;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        margin-top:60px;
+        
+    }
+      .part-3-right-side{
+        padding:10px;
+        padding-top:10px;
+        
+        text-indent: initial; 
+        text-align: initial;
+       
+        font-size: 10px;
+       
+     
+     }
+     .part-3-right-side h3{
+        font-size: 10px;
+        
+        padding-top:45px;
+        
+    }
+    .part-5{
+        display:flex;
+        width:100vw;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top:60px;
+        padding-left:40px;
+}
+}

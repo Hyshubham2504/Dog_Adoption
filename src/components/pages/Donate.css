@@ -38,5 +38,215 @@ body, html {
     margin-top:500px;
 }
 
+@media (min-width:769px) and (max-width: 888px){
+    .donate-container{
+        background-image: url("../Images/cat-3.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* height:50%; */
+        background-position: center;
+        margin-top: -710px;
+        
+    
+    }
+    
+    .donate-heading{
+        color:  #190e04e0;
+         padding-top: 700px; 
+         font-size: 100px;
+         font-weight: 600;
+    }
+    .donate-heading2{
+        color: rgb(255, 255, 255);
+        font-size:40px;
+        /* margin-top: 100px; */
+        padding-top: 50px;
+        font-family: 'Aboreto', cursive;
+    }
+    
+    .donate-form{
+        /* border:2px solid black; */
+        background-color: white;
+        height: 600px;
+        width: 50vw;
+        margin: auto ;
+        margin-top:450px;
+}
+}
+@media (min-width:889px) and (max-width: 1100px){
+    .donate-container{
+        background-image: url("../Images/cat-3.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* height:50%; */
+        background-position: center;
+        margin-top: -920px;
+    }
+    
+    .donate-heading{
+        color:  #190e04e0;
+         padding-top: 900px; 
+         font-size: 100px;
+         font-weight: 600;
+    }
+    .donate-heading2{
+        color: rgb(255, 255, 255);
+        font-size:40px;
+        /* margin-top: 100px; */
+        padding-top: 35px;
+        font-family: 'Aboreto', cursive;
+    }
+    .donate-form{
+        /* border:2px solid black; */
+        background-color: white;
+        height: 700px;
+        width: 50vw;
+        /* margin: auto ; */
+        margin-top:650px;
+        /* padding-top: -15000px; */
+        padding-bottom: 50px;
+    }
+}
+@media (min-width:1100px) and (max-width: 1240px){
+    .donate-container{
+        background-image: url("../Images/cat-3.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* height:50%; */
+        background-position: center;
+        margin-top: -920px;
+    }
+    
+    .donate-heading{
+        color:  #190e04e0;
+         padding-top: 860px; 
+         font-size: 170px;
+         font-weight: 600;
+    }
+    .donate-heading2{
+        color: rgb(255, 255, 255);
+        font-size:40px;
+        /* margin-top: 100px; */
+        padding-top: 35px;
+        font-family: 'Aboreto', cursive;
+    }
+    .donate-form{
+        /* border:2px solid black; */
+        background-color: white;
+        height: 700px;
+        width: 50vw;
+        /* margin: auto ; */
+        margin-top:650px;
+        /* padding-top: -15000px; */
+        padding-bottom: 50px;
+    }
+}
+@media (min-width:600px) and (max-width: 768px){
+    .donate-container{
+        background-image: url("../Images/cat-3.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* height:50%; */
+        background-position: center;
+        margin-top: -660px;
+    }
+    
+    .donate-heading{
+        color:  #190e04e0;
+         padding-top: 590px; 
+         font-size: 100px;
+         font-weight: 600;
+    }
+    .donate-heading2{
+        color: rgb(255, 255, 255);
+        font-size:40px;
+        /* margin-top: 100px; */
+        padding-top: 30px;
+        font-family: 'Aboreto', cursive;
+    }
+    .donate-form{
+        /* border:2px solid black; */
+        background-color: white;
+        height: 100vh;
+        width: 50vw;
+        /* margin: auto ; */
+        margin-top:350px;
+        padding-top: -60px;
+        padding-bottom: 50px;
+    }
+}
 
-
+@media screen and (max-width: 600px) {
+    .donate-heading{
+        color:  #a2a2a2;
+         margin-top: 670px; 
+         margin-left:100px;
+         font-size: 80px;
+         font-weight: 600;
+    }
+    .donate-heading2{
+        color: white;
+        font-size:40px;
+        margin-top: 10px;
+        margin-left: 90px;
+        font-family: 'Aboreto', cursive;
+    }
+    .donate-form{
+        /* border:2px solid black; */
+        
+        background-color: white;
+        height: 100vh;
+        width: fit-content;
+        margin: auto ;
+        margin-top:400px;
+        margin-bottom:300px;
+    }
+    .donate-container{
+        background-image: url("../Images/cat-3.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* height:50%; */
+        background-position: center;
+        margin-top: -800px;
+        overflow: hidden;
+        
+    
+    }
+}
+@media screen and (max-width: 426px) {
+    .donate-heading{
+        color:   #a2a2a2;
+        top: 100px;
+         margin-top: 770px; 
+         margin-left:100px;
+         font-size: 50px;
+         font-weight: 600;
+    }
+    .donate-heading2{
+        color: white;
+        font-size:40px;
+        margin-top: 10px;
+        margin-left: 90px;
+        font-family: 'Aboreto', cursive;
+    }
+    .donate-form{
+        /* border:2px solid black; */
+        
+        background-color: white;
+        height: 100vh;
+        width: fit-content;
+        margin: auto ;
+        margin-top:400px;
+        margin-bottom:300px;
+    }
+    .donate-container{
+        background-image: url("../Images/cat-3.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* height:50%; */
+        background-position: center;
+        margin-top: -970px;
+        
+        
+}
+}

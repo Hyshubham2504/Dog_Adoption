@@ -46,3 +46,130 @@
     background-color: rgb(25, 25, 66) !important;
     margin-top:-40px;
 }
+
+@media (min-width:600px) and (max-width: 768px){
+    .adoption-card{
+        height:400px !important ;
+        width: 235px !important;
+        flex: 0 0 33.333333% !important;
+        display:flex;
+        flex-direction: row;
+        border: 2px solid rgb(25, 25, 66) !important;
+        transition: all 0.5s ease-in-out; 
+        box-shadow: 0 20px 40px 0 rgba(47, 78, 117, 0.4);
+        box-sizing: border-box;
+        margin-top: 50px;   
+    }
+}
+@media screen and (max-width:600px)
+{
+    .adoption-card{
+        height:400px !important ;
+        width: 295px !important;
+        
+        /* background-color:rgb(25, 25, 66) !important ;
+        color: white !important; */
+        border: 2px solid rgb(25, 25, 66) !important;
+        /* background-color: rgb(235, 238, 241) !important; */
+        transition: all 0.5s ease-in-out; 
+        box-shadow: 0 20px 40px 0 rgba(47, 78, 117, 0.4);
+        /* margin:20px; */
+        /* flex: 0 0 33.333333% !important; */
+        /* width:33.33% ; */
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-left:110px;
+        
+      
+    
+       
+        
+    }
+    .adopt-card-button{
+        width: 50% !important;
+        /* margin-top: 10px !important; */
+        color: white !important;
+        background-color: rgb(25, 25, 66) !important;
+        margin-top:-10px;
+        margin-left:60px;
+    }
+
+}
+@media screen and (max-width:426px)
+{
+    .adoption-card{
+        height:400px !important ;
+        width: 295px !important;
+        
+        /* background-color:rgb(25, 25, 66) !important ;
+        color: white !important; */
+        border: 2px solid rgb(25, 25, 66) !important;
+        /* background-color: rgb(235, 238, 241) !important; */
+        transition: all 0.5s ease-in-out; 
+        box-shadow: 0 20px 40px 0 rgba(47, 78, 117, 0.4);
+        /* margin:20px; */
+        /* flex: 0 0 33.333333% !important; */
+        /* width:33.33% ; */
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-left:50px;
+        
+      
+    
+       
+        
+    }
+    .adopt-card-button{
+        width: 50% !important;
+        /* margin-top: 10px !important; */
+        color: white !important;
+        background-color: rgb(25, 25, 66) !important;
+        margin-top:-10px;
+        margin-left:60px;
+    }
+
+}
+@media screen and (max-width:321px)
+{
+    .adoption-card{
+        height:300px !important ;
+        width: 200px !important;
+        
+        /* background-color:rgb(25, 25, 66) !important ;
+        color: white !important; */
+        border: 2px solid rgb(25, 25, 66) !important;
+        /* background-color: rgb(235, 238, 241) !important; */
+        transition: all 0.5s ease-in-out; 
+        box-shadow: 0 20px 40px 0 rgba(47, 78, 117, 0.4);
+        /* margin:20px; */
+        /* flex: 0 0 33.333333% !important; */
+        /* width:33.33% ; */
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-left:50px;
+        
+      
+    
+       
+        
+    }
+    .adopt-card-button{
+        width: 50% !important;
+        height: 20%;
+        /* margin-top: 10px !important; */
+        color: white !important;
+        background-color: rgb(25, 25, 66) !important;
+        margin-top:10px;
+        margin-left:35px;
+        
+    }
+    .adopt-card-text{
+        font-size: 10px  !important;
+        text-align: center;
+        margin-top:-10px !important;
+          
+    }
+    .adopt-card-img{
+        height:100px;
+}
+}

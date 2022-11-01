@@ -61,14 +61,14 @@ export const About = () => {
             <Col lg={1}>
               
             </Col>
-
+        
             <Col lg={4} className="stats-box">
               <Row className="stats-num">
-                <Col lg={4}>
+                <Col lg={4} md={2} sm={4}>
                   <div className="num-1">80M</div>
                 </Col>
 
-                <Col lg={8}>
+                <Col lg={8} md={10} sm={8}>
                   <div className="line-1">
                     stray dogs & cats living on India’s streets
                   </div>
@@ -76,10 +76,10 @@ export const About = () => {
               </Row>
 
               <Row className="stats-num">
-                <Col lg={4}>
+                <Col lg={4} md={2} sm={4}>
                   <div className="num-2">8.8M</div>
                 </Col>
-                <Col lg={8}>
+                <Col lg={8} md={10} sm={8}>
                   <div className="line-2">
                     strays in India’s shelters, and quickly running out of space
                   </div>
@@ -87,28 +87,28 @@ export const About = () => {
               </Row>
 
               <Row className="stats-num">
-                <Col lg={4}>
+                <Col lg={4} md={2} sm={4}>
                   <div className="num-3">9.1M</div>
                 </Col>
-                <Col lg={8}>
+                <Col lg={8} md={10} sm={8}>
                   <div className="line-3">stray homeless cats in India</div>
                 </Col>
               </Row>
 
               <Row className="stats-num">
-                <Col lg={4}>
+                <Col lg={4} md={2} sm={4}>
                   <div className="num-4">50%</div>
                 </Col>
-                <Col lg={8}>
+                <Col lg={8} md={10} sm={8}>
                   <div className="line-4">pet relinquishment rate</div>
                 </Col>
               </Row>
 
               <Row className="stats-num">
-                <Col lg={4}>
+                <Col lg={4} md={2} sm={4}>
                   <div className="num-5">80%</div>
                 </Col>
-                <Col lg={8}>
+                <Col lg={8} md={10} sm={8}>
                   <div className="line-5">
                     people think street dogs should be removed
                   </div>
