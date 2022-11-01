@@ -13,7 +13,7 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink  exact="true" to="/" className="nav-logo">
             <FaDog className="nav-pic "> </FaDog>
             Paw Prints
           </NavLink>
@@ -22,10 +22,11 @@ function NavBar() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <NavLink
-                  exact
+                  exact="true"
                   to="/"
-                  activeClassName="active"
-                  className="nav-links"
+                  // activeclassname="active"
+                  // className="nav-links"
+                  className={({ isActive }) => "nav-links" + (isActive ? " active" : "")}
                   onClick={handleClick}
                 >
                   Home
@@ -33,10 +34,11 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  exact
+                  exact="true"
                   to="/about"
-                  activeClassName="active"
-                  className="nav-links"
+                  // activeClassName="active"
+                  // className="nav-links"
+                  className={({ isActive }) => "nav-links" + (isActive ? " active" : "")}
                   onClick={handleClick}
                 >
                   About Us
@@ -61,10 +63,11 @@ function NavBar() {
                     <Dropdown.Item   >
                       
                       <NavLink
-                        exact
+                         exact="true"
                         to="/donate"
-                        activeClassName="active"
-                        className="dropdown-links"
+                      //  activeClassName="active"
+                      //   className="dropdown-links"
+                      className={({ isActive }) => "dropdown-links" + (isActive ? " active" : "")}
                         onClick={handleClick}
                       >
                         Donate
@@ -73,10 +76,11 @@ function NavBar() {
                     <Dropdown.Item>
                       
                       <NavLink
-                        exact
+                        exact="true"
                         to="/volunteer"
-                        activeClassName="active"
-                        className="dropdown-links"
+                        // activeClassName="active"
+                        // className="dropdown-links"
+                        className={({ isActive }) => "dropdown-links" + (isActive ? " active" : "")}
                         onClick={handleClick}
                       >
                        Volunteer
@@ -85,10 +89,10 @@ function NavBar() {
                     <Dropdown.Item className="dropdown-item">
                      
                       <NavLink
-                        exact
-                        to="/adopt"
-                        activeClassName="active"
-                        className="dropdown-links"
+                         exact="true" to="/adopt"
+                        // activeClassName="active"
+                        // className="dropdown-links"
+                        className={({ isActive }) => "dropdown-links" + (isActive ? " active" : "")}
                         onClick={handleClick}
                       >
                         Adopt
@@ -99,10 +103,10 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  exact
-                  to="/contact"
-                  activeClassName="active"
-                  className="nav-links"
+                   exact="true" to="/contact"
+                  // activeClassName="active"
+                  // className="nav-links"
+                  className={({ isActive }) => "nav-links" + (isActive ? " active" : "")}
                   onClick={handleClick}
                 >
                   Contact Us
@@ -110,10 +114,10 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  exact
-                  to="/donate"
-                  activeClassName="active"
-                  className="nav-links"
+                  exact="true" to="/donate"
+                  // activeClassName="active"
+                  // className="nav-links"
+                  className={({ isActive }) => "nav-links" + (isActive ? " active" : "")}
                   onClick={handleClick}
                 >
                   <Button variant="light" size="md">
